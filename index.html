@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trường THCS Hà Thế Hạnh</title>
+    <title>Liên Đội Trường THCS Hà Thế Hạnh</title>
 
     <!--
     - favicon
@@ -16,6 +16,8 @@
     - custom css link
   -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/slide.css">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
 
     <!--
     - google font link
@@ -23,6 +25,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <section class="main-new swiper mySwiper">
+        <div class="wrapper-new swiper-wrapper">
+            <div class="slide swiper-slide">
+                <img src="./assets/images/slide-picture-2.jpg" alt="" class="image" />
+                <div class="image-data">
+                    <span class="text">Liên Đội Trường THCS Hà Thế Hạnh</span>
+                    <h2>
+                        Năng Động <br /> Sáng Tạo
+                    </h2>
+                    <a href="#recomend" class="button">Khám Phá</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="./assets/images/slide-picture-3.jpg" alt="" class="image" />
+                <div class="image-data">
+                    <span class="text">Tham Gia Group của Liên Đội</span>
+                    <h2>
+                        Theo Dõi <br /> Tương Tác
+                    </h2>
+                    <a href="https://www.facebook.com/groups/1005755549557649/" class="button">Tham Gia</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="./assets/images/slide-picture-4.jpg" alt="" class="image" />
+                <div class="image-data">
+                    <span class="text">Theo Dõi Thông Tin Của Liên Đội</span>
+                    <h2>
+                        Nhanh Chóng <br /> Tiện Lợi
+                    </h2>
+                    <a href="#recomend" class="button">Khám Phá</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+    </section>
 </head>
 
 <body>
@@ -172,7 +212,7 @@
                 <ul class="navbar-list">
 
                     <li class="navbar-item">
-                        <button class="navbar-link  active" data-nav-link>Trường</button>
+                        <button class="navbar-link  active" data-nav-link>Liên Đội</button>
                     </li>
 
                     <li class="navbar-item">
@@ -192,7 +232,7 @@
                     </li>
 
                     <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Liên Hệ</button>
+                        <button class="navbar-link" data-nav-link>Kết Nối</button>
                     </li>
 
                 </ul>
@@ -207,22 +247,26 @@
         - #ABOUT
       -->
 
-            <article class="about  active" data-page="trường">
+            <article class="about  active" data-page="liên đội">
 
                 <header>
                     <h2 class="h2 article-title">Giới Thiệu</h2>
                 </header>
 
                 <section class="about-text">
-                    <p>
-                        Trường THCS Hà Thế Hạnh là một trong những trường học tiên tiến và nổi tiếng tại địa phương. Với đội ngũ giáo viên giàu kinh nghiệm và nhiệt tình, trường luôn đặt sự phát triển của học sinh lên hàng đầu.
-                    </p>
+                    <div id="recomend">
+                        <p>
+                            Liên đội trường THCS Hà Thế Hạnh chính là nơi các đội viên tham gia, phấn đấu, rèn luyện để thể hiện bản thân mình. Liên đội luôn tham gia đầy đủ các hoạt động của Hội đồng đội, các phong trào thiếu nhi do cấp trên phát động với nhiều thành tích nổi bật:
+                            3 năm liền (Năm Học: 2019-2020; 2020-2021; 2021-2022) được Ban chấp hành trung ương đoàn thanh niên cộng sản Hồ Chí Minh tặng bằng khen vì đã có thành tích xuất sắc trong công tác Đội và phong tráo thiếu nhi.6 năm liền được
+                            Tỉnh đoàn tặng bằng khen vì hoàn thành xuất sắc phong trào kế hoạch nhỏ…
+                        </p>
+                    </div>
 
-                    <p>
+                    <!-- <p>
                         Với các chương trình giảng dạy được thiết kế đồng bộ và hiện đại, THCS Hà Thế Hạnh đạt được nhiều thành tích cao trong các kỳ thi học sinh giỏi và đề tài nghiên cứu khoa học. Hơn nữa, trường còn đẩy mạnh phát triển các hoạt động ngoại khóa và tổ chức
                         các cuộc thi, sân chơi cho học sinh để giúp các em rèn luyện kỹ năng sống và phát triển toàn diện.
                     </p>
-                    <p>Với những thành tích đáng kinh ngạc và cam kết không ngừng phát triển, THCS Hà Thế Hạnh được coi là ngôi trường lý tưởng cho các em học sinh trong việc tiếp cận kiến thức và rèn luyện năng lực.</p>
+                    <p>Với những thành tích đáng kinh ngạc và cam kết không ngừng phát triển, THCS Hà Thế Hạnh được coi là ngôi trường lý tưởng cho các em học sinh trong việc tiếp cận kiến thức và rèn luyện năng lực.</p> -->
                 </section>
 
 
@@ -327,8 +371,8 @@
 
                                     <div class="testimonials-text" data-testimonials-text>
                                         <p>
-                                            Trường THCS Hà Thế Hạnh đã giúp tôi thay đổi từ một học sinh thường hay chơi và lười học trở thành một học sinh chăm chỉ hơn. Các giáo viên của trường đã tạo ra một môi trường học tập tích cực và hỗ trợ tôi trong việc nâng cao kiến thức và kỹ năng. Nhờ
-                                            đó, tôi đã có được những kết quả tốt hơn và trở thành một học sinh có định hướng rõ ràng hơn cho tương lai của mình.
+                                            Liên ĐộiTrường THCS Hà Thế Hạnh đã giúp tôi thay đổi từ một học sinh thường hay chơi và lười học trở thành một học sinh chăm chỉ hơn. Các giáo viên của trường đã tạo ra một môi trường học tập tích cực và hỗ trợ tôi trong việc nâng cao kiến thức và kỹ
+                                            năng. Nhờ đó, tôi đã có được những kết quả tốt hơn và trở thành một học sinh có định hướng rõ ràng hơn cho tương lai của mình.
                                         </p>
                                     </div>
 
@@ -346,9 +390,9 @@
 
                                     <div class="testimonials-text" data-testimonials-text>
                                         <p>
-                                            Trường THCS đã giúp tôi phát triển toàn diện về mặt kiến thức và kỹ năng sống. Các giáo viên của trường luôn tạo điều kiện để tôi có thể học tập tốt nhất, đồng thời giúp tôi rèn luyện kỹ năng giao tiếp, học tập độc lập và tư duy sáng tạo. Các hoạt động
-                                            ngoại khóa và các cuộc thi, sân chơi cũng giúp tôi có cơ hội rèn luyện thêm kỹ năng mềm và phát triển bản thân. Tôi cảm thấy rất biết ơn và tự hào khi được học tập tại ngôi trường này và tin rằng những kinh
-                                            nghiệm và kỹ năng mà tôi đã học được sẽ hỗ trợ tôi trong tương lai.
+                                            Liên Đội Trường THCS Hà THế Hạnh đã giúp tôi phát triển toàn diện về mặt kiến thức và kỹ năng sống. Các giáo viên của trường luôn tạo điều kiện để tôi có thể học tập tốt nhất, đồng thời giúp tôi rèn luyện kỹ năng giao tiếp, học tập độc lập và tư duy sáng
+                                            tạo. Các hoạt động ngoại khóa và các cuộc thi, sân chơi cũng giúp tôi có cơ hội rèn luyện thêm kỹ năng mềm và phát triển bản thân. Tôi cảm thấy rất biết ơn và tự hào khi được học tập tại ngôi trường này và tin
+                                            rằng những kinh nghiệm và kỹ năng mà tôi đã học được sẽ hỗ trợ tôi trong tương lai.
                                         </p>
                                     </div>
 
@@ -366,8 +410,8 @@
 
                                     <div class="testimonials-text" data-testimonials-text>
                                         <p>
-                                            Trường THCS Hà Thế Hạnh đã đem lại cho tôi rất nhiều giá trị quý báu, bao gồm kiến thức, kỹ năng và những trải nghiệm ý nghĩa trong cuộc sống. Tôi được học tập trong môi trường tích cực và được hỗ trợ bởi các giáo viên tận tình và giàu kinh nghiệm. Các
-                                            hoạt động ngoại khóa và cuộc thi cũng giúp tôi rèn luyện kỹ năng mềm và phát triển bản thân. Tôi tin rằng những giá trị này sẽ giúp tôi thành công trong tương lai.
+                                            Liên Đội Trường THCS Hà Thế Hạnh đã đem lại cho tôi rất nhiều giá trị quý báu, bao gồm kiến thức, kỹ năng và những trải nghiệm ý nghĩa trong cuộc sống. Tôi được học tập trong môi trường tích cực và được hỗ trợ bởi các giáo viên tận tình và giàu kinh nghiệm.
+                                            Các hoạt động ngoại khóa và cuộc thi cũng giúp tôi rèn luyện kỹ năng mềm và phát triển bản thân. Tôi tin rằng những giá trị này sẽ giúp tôi thành công trong tương lai.
                                         </p>
                                     </div>
 
@@ -385,9 +429,9 @@
 
                                     <div class="testimonials-text" data-testimonials-text>
                                         <p>
-                                            Trường THCS Hà Thế Hạnh có nhiều ưu điểm, tuy nhiên vẫn tồn tại một số điểm chưa tốt đối với tôi. Ví dụ, trường có những buổi học tập không đồng đều về chất lượng và không đảm bảo được sự tập trung của học sinh. Tuy nhiên, trường đã có nhiều biện pháp
-                                            khắc phục điểm yếu này, bao gồm việc tổ chức các buổi học thảo luận nhóm, đánh giá học tập thường xuyên và đưa ra phương pháp giảng dạy phù hợp với từng học sinh. Ngoài ra, trường cũng đẩy mạnh việc rèn luyện
-                                            kỹ năng mềm cho học sinh, giúp họ tự tin và phát triển bản thân tốt hơn. Tôi tin rằng với những nỗ lực này, trường sẽ ngày càng hoàn thiện và đáp ứng tốt hơn nhu cầu của học sinh.
+                                            Liên Đội Trường THCS Hà Thế Hạnh có nhiều ưu điểm, tuy nhiên vẫn tồn tại một số điểm chưa tốt đối với tôi. Ví dụ, trường có những buổi học tập không đồng đều về chất lượng và không đảm bảo được sự tập trung của học sinh. Tuy nhiên, trường đã có nhiều
+                                            biện pháp khắc phục điểm yếu này, bao gồm việc tổ chức các buổi học thảo luận nhóm, đánh giá học tập thường xuyên và đưa ra phương pháp giảng dạy phù hợp với từng học sinh. Ngoài ra, trường cũng đẩy mạnh việc
+                                            rèn luyện kỹ năng mềm cho học sinh, giúp họ tự tin và phát triển bản thân tốt hơn. Tôi tin rằng với những nỗ lực này, trường sẽ ngày càng hoàn thiện và đáp ứng tốt hơn nhu cầu của học sinh.
                                         </p>
                                     </div>
 
@@ -739,67 +783,227 @@
 
                 </section>
 
-                <section class="skill">
+                <section class="timeline">
 
-                    <h3 class="h3 skills-title">Hạnh Kiểm Của Tất Cả Học Sinh(Mới Nhất)</h3>
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
 
-                    <ul class="skills-list content-card">
+                        <h3 class="h3">Tiểu Sử Của Các Chi Đội Mang Tên</h3>
+                    </div>
 
-                        <li class="skills-item">
+                    <ol class="timeline-list">
 
-                            <div class="title-wrapper">
-                                <h5 class="h5">Tốt</h5>
-                                <data value="93.8">93.8%</data>
-                            </div>
+                        <li class="timeline-item">
 
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 93.8%;"></div>
-                            </div>
+                            <h4 class="h4 timeline-item-title">Lớp 6/1</h4>
 
-                        </li>
+                            <span>Kim Đồng</span>
 
-                        <li class="skills-item">
-
-                            <div class="title-wrapper">
-                                <h5 class="h5">Khá</h5>
-                                <data value="6.1">6.1%</data>
-                            </div>
-
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 6.1%;"></div>
-                            </div>
+                            <p class="timeline-text">
+                                Anh hùng Kim Đồng (tên thật là Nông Văn Dền) sinh năm 1928, dân tộc Nùng, tại bản Nà Mạ, xã Trường Hà, huyện Hà Quảng, tỉnh Cao Bằng. Khi hy sinh, Kim Đồng là đội trưởng Đội Nhi đồng Cứu quốc (Đội Thiếu niên Tiền phong Hồ Chí Minh ngày nay).
+                            </p>
 
                         </li>
 
-                        <li class="skills-item">
+                        <li class="timeline-item">
 
-                            <div class="title-wrapper">
-                                <h5 class="h5">Trung Bình</h5>
-                                <data value="0.2">0.2%</data>
-                            </div>
+                            <h4 class="h4 timeline-item-title">Lớp 6/2</h4>
 
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 0.2%;"></div>
-                            </div>
+                            <span>Lê Vắn Tám</span>
 
-                        </li>
-
-                        <li class="skills-item">
-
-                            <div class="title-wrapper">
-                                <h5 class="h5">Yếu</h5>
-                                <data value="0">0%</data>
-                            </div>
-
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 0%;"></div>
-                            </div>
+                            <p class="timeline-text">
+                                Lê Văn Tám là con của một gia đình nghèo ở xóm Bàn Cờ ( nay thuộc Quận 3 - Thành phố Hồ Chí Minh ). Cha anh đã từng hoạt động thời Nam Kì khởi nghĩa (1940). Ngày thực dân Pháp gây hấn ở Nam Bộ (9-1945), gia đình anh ra vùng kháng chiến. Sau vì hoàn cảnh
+                                riêng, gia đình anh lại phải trở về vùng địch tạm chiếm.
+                            </p>
 
                         </li>
 
-                    </ul>
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">LỚp 6/3</h4>
+
+                            <span>Võ Thị Sáu</span>
+
+                            <p class="timeline-text">
+                                Võ Thị Sáu sinh năm 1933, là con ông Võ Văn Hợi và bà Nguyễn Thị Đậu. Về nguyên quán, trên bia mộ chỉ ghi tại huyện Đất Đỏ, tỉnh Bà Rịa – Vũng Tàu. Nhiều tài liệu ghi nguyên quán của cô tại xã Phước Thọ (thuộc tổng Phước Hưng Hạ), tỉnh Bà Rịa, nay thuộc
+                                thị trấn Đất Đỏ, huyện Đất Đỏ, tỉnh Bà Rịa – Vũng Tàu.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lớp 6/4</h4>
+
+                            <span>Nguyễn Bá Ngọc</span>
+
+                            <p class="timeline-text">
+                                Nguyễn Bá Ngọc sinh năm 1952 tại xã Quảng Trung huyện Quảng Xương, tỉnh Thanh Hóa. Năm 1965, khi đang học lớp 4B trường PTCS Quảng Trung, Ngọc là một học sinh chăm ngoan học giỏi và rất hay giúp đỡ bạn bè. Cũng năm đó giặc Mĩ mở rộng chiến tranh và cho
+                                máy bay đánh phá các tỉnh miền Bắc nước ta, chúng ném bom cả trường học, bệnh viện...
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lớp 7/1</h4>
+
+                            <span>Bế Văn Đàn</span>
+
+                            <p class="timeline-text">
+                                Đồng chí Bế Văn Đàn sinh năm 1931, người dân tộc Tày, quê ở xã Quang Vinh (nay là xã Triệu Ấu), huyện Phục Hòa, tỉnh Cao Bằng, xuất thân trong một gia đình nghèo có truyền thống cách mạng, cha làm thợ mỏ, mẹ mất sớm, lớn lên đồng chí tham gia hoạt động
+                                du kích. Tháng 1/1948, anh vào bộ đội, công tác tích cực, bền bỉ, chiến đấu dũng cảm. Đồng chí tham gia hầu hết các chiến dịch lớn trong kháng chiến chống Pháp. Khi hy sinh, Bế Văn Đàn là tiểu đội phó, Đảng viên Đảng Cộng
+                                sản Việt Nam. Bế Văn Đàn đã trở thành niềm tự hào của các thế hệ thanh niên Việt Nam trong hai cuộc kháng chiến của dân tộc. Trong đại hội mừng công của đơn vị, đồng chí Bế Văn Đàn được truy tặng Huân chương Chiến công
+                                hạng nhất và được bình bầu là chiến sĩ thi đua số một của tiểu đoàn. Với những thành tích đặc biệt xuất sắc, ngày 31/8/1955 đồng chí được Quốc hội truy tặng danh hiệu Anh hùng lực lượng vũ trang nhân dân và Huân chương
+                                Quân công hạng nhì.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lớp 7/2</h4>
+
+                            <span>Phan Đình Giót</span>
+
+                            <p class="timeline-text">
+                                Phan Đình Giót sinh năm 1922 trong một gia đình nghèo ở huyện Cẩm Xuyên, Hà Tĩnh. Khi cuộc kháng chiến chống Pháp bùng nổ cùng với bạn bè đồng trang lứa. Phan Đình Giót xin tham gia tự vệ chiến đấu và xung phong đi bộ đội chủ lực năm 1950. Phan Đình Giót
+                                tham gia rất nhiều các chiến dịch lớn như: Trung Du, Hòa Bình, Tây Bắc. Phan Đình Giót hy sinh lúc 22h30p ngày 13/3/1954 ở tuổi 34. Phan Đình Giót được nhận danh hiệu Anh hùng Lực lượng Vũ trang nhân dân ngày 31/3/1955
+                                và Huân chương Quân công hạng nhì.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lớp 7/3</h4>
+
+                            <span>Nguyễn Viết Xuân</span>
+
+                            <p class="timeline-text">
+                                Nguyễn Viết Xuân sinh năm 1934, người làng Ngũ Kiên, Vĩnh Tường, Vĩnh Phúc. Sinh ra trong một gia đình nông dân nghèo, năm lên 7 tuổi anh đã phải đi giúp việc trong thời gia dài suốt 10 năm. Khi vừa tròn 18 tuổi anh đã đi từ vùng tạm chiếm ra vùng tự
+                                do, rồi xin đi bộ đội. Nhập ngũ tháng 11/1952, lúc đầu anh làm chiến sỹ trinh sát, rồi tiểu đội trưởng trinh sát, trung đội trưởng pháo cao xạ, sau làm chính trị viên đại đội. Bất kỳ ở cương vị nào anh cũng luôn nêu cao
+                                tinh thần quyết tâm chống giặc xâm lược, bảo vệ tổ quốc, xung phong đi đầu, cùng đồng đội hoàn thành xuất sắc nhiệm vụ. Lời hô “Nhằm thẳng quân thù, bắn” của Nguyễn Viết Xuân đã trở thành khẩu hiệu tiến công trên các trận
+                                địa pháo phòng không của bộ đội ta trong cuộc kháng chiến chống Mỹ . Khi hi sinh anh là thiếu úy, chính trị viên đại đội 3, tiểu đoàn 14, pháo cao xạ, sư đoàn 325, quân khu IV, đảng viên Đảng cộng sản Việt Nam. Anh được
+                                truy tặng danh hiệu Anh hùng lực lượng vũ tranh nhân dân (1/1/1967) cùng nhiều huy chương và bằng khen khác.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lớp 7/4</h4>
+
+                            <span>Ngô Gia Tự</span>
+
+                            <p class="timeline-text">
+                                Ông vượt ngục và trở về hoạt động cách mạng tại quê hương, cùng đồng đội tham gia chuần bị tổng khởi nghĩa.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lớp 8/1</h4>
+
+                            <span>Lê Hồng Phong</span>
+
+                            <p class="timeline-text">
+                                Cách mạng tháng Tám thành công, ông được cử làm Phó chủ tịch UBND cách mạng huyện Hương Trà, phó ban tuyên truyền Trung Bộ.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lớp 8/2</h4>
+
+                            <span>Nguyễn Thị Minh Khai</span>
+
+                            <p class="timeline-text">
+                                Ông được cử ra Bắc công tác, giữ nhiều chức vụ quan trọng.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lớp 8/3</h4>
+
+                            <span>Lý Tự Trọng</span>
+
+                            <p class="timeline-text">
+                                Ông làm Trưởng ban huấn học của Phủ thủ tướng
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lớp 8/4</h4>
+
+                            <span>Cù Chính Lan</span>
+
+                            <p class="timeline-text">
+                                Ông làm Hiệu trưởng trường Tài chính Trung ương.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lớp 9/1</h4>
+
+                            <span>Trần Phú</span>
+
+                            <p class="timeline-text">
+                                Ông làm công tác nghiên cứu khoa học tại Viện kinh tế học, Trưởng ban Lịch sử kinh tế quốc dân.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lớp 9/2</h4>
+
+                            <span>Nguyễn Văn Cừ</span>
+
+                            <p class="timeline-text">
+                                Ông làm công tác nghiên cứu khoa học tại Viện kinh tế học, Trưởng ban Lịch sử kinh tế quốc dân.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lớp 9/3</h4>
+
+                            <span>Ngô Mây</span>
+
+                            <p class="timeline-text">
+                                Ông làm công tác nghiên cứu khoa học tại Viện kinh tế học, Trưởng ban Lịch sử kinh tế quốc dân.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lớp 9/4</h4>
+
+                            <span>La Văn Cầu</span>
+
+                            <p class="timeline-text">
+                                Ông làm công tác nghiên cứu khoa học tại Viện kinh tế học, Trưởng ban Lịch sử kinh tế quốc dân.
+                            </p>
+
+                        </li>
+
+                    </ol>
 
                 </section>
+
             </article>
 
 
@@ -812,6 +1016,105 @@
                 <header>
                     <h2 class="h2 article-title">Kế Hoạch</h2>
                 </header>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Điểm thi đua của lớp 8, 9 trong ngày</h3>
+                    </div>
+                    <iframe style="width: 100%; height: 500px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTyFOzh5Zj-C3kEj4PGWdWfdnDE_yw7rVOo3-Xonb0zdkd3W4guOAajQHfrJpdVl-h0K9VHDBoddRu9/pubhtml?widget=true&amp;headers=false"></iframe>
+
+                </section>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Điểm thi đua của lớp 6, 7 trong ngày</h3>
+                    </div>
+                    <iframe style="width: 100%; height: 500px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQxulV2JqYjFyIinH-HgGyM7lBuUgfDRUF8sT7dj6W8FcemIjUmsC-dwoSInx0CXIYt5ZG3PCkRlEMy/pubhtml?widget=true&amp;headers=false"></iframe>
+
+                </section>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Hạnh Kiểm Của Tất Cả Học Sinh(Mới Nhất)</h3>
+                    </div>
+
+                    <section class="skill">
+
+                        <h3 class="h3 skills-title"></h3>
+
+                        <ul class="skills-list content-card">
+
+                            <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Tốt</h5>
+                                    <data value="93.8">93.8%</data>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 93.8%;"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Khá</h5>
+                                    <data value="6.1">6.1%</data>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 6.1%;"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Trung Bình</h5>
+                                    <data value="0.2">0.2%</data>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 0.2%;"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Yếu</h5>
+                                    <data value="0">0%</data>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 0%;"></div>
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                    </section>
+                </section>
 
                 <section class="timeline">
 
@@ -955,32 +1258,6 @@
                         </li>
 
                     </ol>
-
-                </section>
-
-                <section class="timeline">
-
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <ion-icon name="book-outline"></ion-icon>
-                        </div>
-
-                        <h3 class="h3">Điểm thi đua của lớp 8, 9 trong ngày</h3>
-                    </div>
-                    <iframe style="width: 100%; height: 500px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTyFOzh5Zj-C3kEj4PGWdWfdnDE_yw7rVOo3-Xonb0zdkd3W4guOAajQHfrJpdVl-h0K9VHDBoddRu9/pubhtml?widget=true&amp;headers=false"></iframe>
-
-                </section>
-
-                <section class="timeline">
-
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <ion-icon name="book-outline"></ion-icon>
-                        </div>
-
-                        <h3 class="h3">Điểm thi đua của lớp 6, 7 trong ngày</h3>
-                    </div>
-                    <iframe style="width: 100%; height: 500px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQxulV2JqYjFyIinH-HgGyM7lBuUgfDRUF8sT7dj6W8FcemIjUmsC-dwoSInx0CXIYt5ZG3PCkRlEMy/pubhtml?widget=true&amp;headers=false"></iframe>
 
                 </section>
 
@@ -1434,7 +1711,7 @@
         - #CONTACT
       -->
 
-            <article class="contact" data-page="liên hệ">
+            <article class="contact" data-page="kết nối">
 
                 <header>
                     <h2 class="h2 article-title">Em muốn nói!</h2>
@@ -1494,6 +1771,21 @@
     - custom js link
   -->
     <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 
     <!--
     - ionicon link
